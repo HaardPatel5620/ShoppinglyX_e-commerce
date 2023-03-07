@@ -1,0 +1,52 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %} Profile {% endblock title %}
+{% block main-content %}
+<div class="container my-5">
+    <div class="row">
+        <h3>Welcome <span class="text-capitalize"> {{request.user}} </span></h3>
+        <div class="col-sm-2 border-end">
+            <ul class="list-unstyled">
+                <li class="d-grid"><a href="{% url 'profile' %}" class="btn">Profile</a></li>
+                <li class="d-grid"><a href="{% url 'address' %}" class="btn btn-primary">Address</a></li>
+                <li class="d-grid"><a class="dropdown-item" href="{% url 'changepassword' %}">Change Password</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-9 offset-sm-1">
+            <div class="row">
+                {% for a in addr %}
+                <div class="col-sm-6">
+                    <div class="card shadow p-2" style="background-color:rgb(221, 229, 240);">
+                        <div class="card-body">
+                            <h3>Address {{forloop.counter}}</h3>
+                            <table style="width:100%">
+                                <tr>
+                                    <th style="padding: 5px;text-align: left;border-bottom: 1px solid #c4c4c4;">Name:</th>
+                                    <td style="padding: 5px;text-align: left;border-bottom: 1px solid #c4c4c4;"><span class="text-capitalize">{{a.name}}</span></td>
+                                </tr>
+                                <tr>
+                                    <th style="padding: 5px;text-align: left;border-bottom: 1px solid #c4c4c4;;">Locality:</th>
+                                    <td style="padding: 5px;text-align: left;border-bottom: 1px solid #c4c4c4;"><span class="text-capitalize">{{a.locality}}</span></td>
+                                </tr>
+                                <tr>
+                                    <th style="padding: 5px;text-align: left;border-bottom: 1px solid #c4c4c4;">City:</th>
+                                    <td style="padding: 5px;text-align: left;border-bottom: 1px solid #c4c4c4;"><span class="text-capitalize"> {{a.city}}</span></td>
+                                </tr>
+                                <tr>
+                                    <th style="padding: 5px;text-align: left;border-bottom: 1px solid #c4c4c4;">State:</th>
+                                    <td style="padding: 5px;text-align: left;border-bottom: 1px solid #c4c4c4;"><span class="text-capitalize"> {{a.state}}</span></td>
+                                </tr>
+                                <tr>
+                                    <th style="padding: 5px;text-align: left;border-bottom: 1px solid #c4c4c4;">Pin Code:</th>
+                                    <td style="padding: 5px;text-align: left;border-bottom: 1px solid #c4c4c4;"><span class="text-capitalize"> {{a.zipcode}}</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock main-content %}
