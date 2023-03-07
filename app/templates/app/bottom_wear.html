@@ -11,7 +11,7 @@
                 {% for brand in brands_list %}
                     <a href="{% url 'bottomweardata' brand %}" class="list-group-item list-group-item-action" aria-current="true" style="background-color:rgb(206, 218, 235);">{{brand}}</a>
                 {% endfor %}
-                <h4>Filter By Brand</h4>
+                <h4>Filter By Price</h4>
                 <a href="{% url 'bottomweardata' 'below' %}" class="list-group-item list-group-item-action shadow" aria-current="true" style="background-color:rgb(206, 218, 235);">Below ₹500</a>
                 <a href="{% url 'bottomweardata' 'above' %}" class="list-group-item list-group-item-action shadow" aria-current="true" style="background-color:rgb(206, 218, 235);">Above ₹500</a>
             </div>
@@ -24,7 +24,7 @@
                         <div class="item">
                             <img src="{{product.product_image.url}}" alt="" height="300" class="">
                             <div class="fw-bold">{{product.title}}</div>
-                            <div class="fw-bold">Rs. {{product.discounted_price}}</div>
+                            <div class="fw-bold">₹{{product.discounted_price}}</div>
                             <small class="fw-light text-decoration-line-through">{{product.selling_price}}</small>
                         </div>
                     </a>
