@@ -70,6 +70,7 @@ class home(View):
         bottomwears = Product.objects.filter(category="BW")
         mobile = Product.objects.filter(category="M")
         laptop = Product.objects.filter(category="L")
+        Watch = Product.objects.filter(category="WW")
         return render(
             request,
             "app/home.html",
@@ -78,6 +79,7 @@ class home(View):
                 "bottomwears": bottomwears,
                 "laptop": laptop,
                 "mobile": mobile,
+                "Watch": Watch,
                 "cart_items_count":cart_items_count(request)
             },
         )
