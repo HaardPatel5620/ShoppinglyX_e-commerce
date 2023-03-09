@@ -2,7 +2,10 @@
 Built e-commerce website using Django
 
 #### Demo of:
-ShoppinglyX Home,products,product-details overview without login 
+ShoppinglyX  
+- Home
+- products
+- product-details overview without login 
 
 https://user-images.githubusercontent.com/91488051/223941108-87bf0d69-e2e9-4503-8533-d70278555a17.mp4
 
@@ -15,6 +18,11 @@ https://user-images.githubusercontent.com/91488051/223940311-97d4e272-2fda-4ae2-
 User Registration
 
 https://user-images.githubusercontent.com/91488051/223940348-bcaebe00-cc99-4471-810c-64d7111083e1.mp4
+
+
+Search Functionality
+
+https://user-images.githubusercontent.com/91488051/223942411-5b6e9bbc-2ef5-4d87-a407-a0d419a356ce.mp4
 
 
 complete process of login to buying 
@@ -31,7 +39,8 @@ Forgot Password Page (Reset Password)
 
 ![Screenshot 2023-03-09 114837](https://user-images.githubusercontent.com/91488051/223941285-c58adb84-697e-45e6-9878-f4b1bca79003.jpg)
 
-Link for reseting Password will be sent to Email after Entering Email address
+
+- Link for reseting Password will be sent to Email after Entering Email address
 
 ![Screenshot 2023-03-09 114919](https://user-images.githubusercontent.com/91488051/223941325-fd144732-5189-48b3-b850-481bae868d20.jpg)
 
