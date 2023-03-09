@@ -1,8 +1,8 @@
 # ShoppinglyX_e-commerce
 Built e-commerce website using Django
 
-#### Demo of:
-ShoppinglyX  
+### Demo of:
+##### ShoppinglyX  
 - Home
 - products
 - product-details overview without login 
@@ -10,32 +10,32 @@ ShoppinglyX
 https://user-images.githubusercontent.com/91488051/223941108-87bf0d69-e2e9-4503-8533-d70278555a17.mp4
 
 
-Item can not be added to cart or bought if not looged in 
+##### Item can not be added to cart or bought if not looged in 
 
 https://user-images.githubusercontent.com/91488051/223940311-97d4e272-2fda-4ae2-acb1-a275cb325ca3.mp4
 
 
-User Registration
+##### User Registration
 
 https://user-images.githubusercontent.com/91488051/223940348-bcaebe00-cc99-4471-810c-64d7111083e1.mp4
 
 
-Search Functionality
+##### Search Functionality
 
 https://user-images.githubusercontent.com/91488051/223942411-5b6e9bbc-2ef5-4d87-a407-a0d419a356ce.mp4
 
 
-complete process of login to buying 
+##### complete process of login to buying 
 
 https://user-images.githubusercontent.com/91488051/223939024-f3f6aab1-57a8-4118-8d1a-06d03854c8d1.mp4
 
 
-Change password Page
+##### Change password Page
 
 ![ShoppingX _ Buy Now - Google Chrome 09-03-2023 11_46_37](https://user-images.githubusercontent.com/91488051/223940934-01f983fb-01b4-425e-b17a-768f1b6817ae.png)
 
 
-Forgot Password Page (Reset Password)
+##### Forgot Password Page (Reset Password)
 
 ![Screenshot 2023-03-09 114837](https://user-images.githubusercontent.com/91488051/223941285-c58adb84-697e-45e6-9878-f4b1bca79003.jpg)
 
