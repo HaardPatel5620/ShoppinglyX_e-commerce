@@ -1,6 +1,42 @@
 # ShoppinglyX_e-commerce
 Built e-commerce website using Django
 
+#### Demo of:
+ShoppinglyX Home,products,product-details overview without login 
+
+https://user-images.githubusercontent.com/91488051/223941108-87bf0d69-e2e9-4503-8533-d70278555a17.mp4
+
+
+Item can not be added to cart or bought if not looged in 
+
+https://user-images.githubusercontent.com/91488051/223940311-97d4e272-2fda-4ae2-acb1-a275cb325ca3.mp4
+
+
+User Registration
+
+https://user-images.githubusercontent.com/91488051/223940348-bcaebe00-cc99-4471-810c-64d7111083e1.mp4
+
+
+complete process of login to buying 
+
+https://user-images.githubusercontent.com/91488051/223939024-f3f6aab1-57a8-4118-8d1a-06d03854c8d1.mp4
+
+
+Change password Page
+
+![ShoppingX _ Buy Now - Google Chrome 09-03-2023 11_46_37](https://user-images.githubusercontent.com/91488051/223940934-01f983fb-01b4-425e-b17a-768f1b6817ae.png)
+
+
+Forgot Password Page (Reset Password)
+
+![Screenshot 2023-03-09 114837](https://user-images.githubusercontent.com/91488051/223941285-c58adb84-697e-45e6-9878-f4b1bca79003.jpg)
+
+Link for reseting Password will be sent to Email after Entering Email address
+
+![Screenshot 2023-03-09 114919](https://user-images.githubusercontent.com/91488051/223941325-fd144732-5189-48b3-b850-481bae868d20.jpg)
+
+
+
 ## E-Commerce App using Django
 
 This is an e-commerce web application built using the Django web framework. The application allows users to browse, search, and purchase products from the website.
